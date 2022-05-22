@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;1,100;1,300&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+.logo-pic{
+   width: 150px;
+   border-top-left-radius: 10px;
+   margin: 1em;
+   /* flex-grow: 1; */
+
+}
+
+body {
+   background-color: pink;
+   font-family: 'Roboto', sans-serif;
+}
+
+.container {
+   background-color: white;
+   max-width: 1430px;
+   margin: 20px auto ;
+   height: 100vh;
+   border-top-left-radius: 10px;
+   border-top-right-radius: 10px;
+
+}
+
+/* NAVIGATIon */
+
+.nav-bar {
+   display: flex;
+   /* background-color: aquamarine; */
+   justify-content: space-between;
+   border-radius: 10px;
+
+}
+
+nav ul {
+   display: flex;
+   gap: 2em;
+   /* background-color: aqua; */
+   align-items: center;
+   width: 80%;
+   justify-content: end;
+   padding-right: 3%;
+   
+
+}
+   
+
+nav ul li {
+   list-style: none;
+   
+   
+}
+
+nav ul :nth-child(1){
+   margin-left: auto;
+}
+
+.nav-buttons{
+   text-decoration: none;
+   /* background-color: brown; */
+   padding: 0.5em 1.2em;
+   border-radius: 10px;
+   font-size: 140%;
+   color: black;
+   transition: 0.15s;
+   font-weight: bold;
+}
+
+.contact-button{
+   text-decoration: none;
+   padding: 0.5em 1.2em;
+   border-radius: 10px;
+   margin-left: 2%;
+   font-size: 140%;
+   font-weight: bold;
+   color: rgb(247, 143, 160);
+   transition: 0.15s;
+   border: 2px solid rgb(247, 143, 160);
+   
+
+}
+
+.contact-button:hover {
+   background-color: rgb(247, 143, 160);
+   color: azure;
+
+}
+
+
+.nav-buttons:hover {
+   background-color: pink;
+   color: azure;
+
+}
+
+
+.main-bod{
+   display: flex;
+   width: 100%;
+   background-color: white;
+   height: 600px;
+   align-items: center;
+   /* background-color: pink; */
+   
+
+}
+
+/* LEFT SIDE OF MAIN */
+.main-left{
+   flex: 0.8;
+
+}
+.main-left div {
+   display: flex;
+
+}
+
+.main-left div h1{
+   font-size: 50px;
+   margin: 0 0 0 15%;
+   
+}
+
+.main-left div h3{
+   margin: 15px 0 0 15%;
+   
+}
+
+/* RIGHT SIDE OF MAIN */
+.main-right{
+   display: flex;
+   flex: auto;
+   flex: 1;
+   
+}
+
+
+.box{
+   margin-left: 25%;
+   width: 400px;
+   height: 438px;
+   background-color: pink;
+   border-top-left-radius: 440px;
+   border-top-right-radius: 60px;
+   border-bottom-left-radius: 40px;
+   border-bottom-right-radius: 180px;
+}
+
+.rightpic{
+   width: 500px;
+   height: 500px;
+   object-fit: cover;
+   padding: 0 66px 62px 0;
+   position: absolute;
+
+}
+
+.about-page{
+   background-color: pink;
+   height: 60vh;
+}
+
+/* REMAININ PAGES */
+
+.bg1{
+   margin-top: 50px;
+   background-image: url(img/bg5.jpg);
+   height: 600px;
+
+}
+
+.bg2{
+   background-image: url(img/bg8.jpg);
+   height: 600px;
+
+}
+
+.bg1,.bg2{
+   position: relative;
+   opacity: 0.8;
+   background-position: center;
+   background-repeat: no-repeat;
+
+   /* creating parallax */
+   background-attachment: fixed;
+
+}
+
+
+.partition1,.partition2{
+   text-align: center;
+   align-items: center;
+   padding: 50px 80px;
+   height: 400px;
+   background-color: white;
+
+}
+
+.partition1{
+   padding-top: 120px;
+}
+
+.partition2{
+   border-bottom-left-radius: 10px;
+   border-bottom-right-radius: 10px;
+   height: 300px;
+}
+
+.socials{
+   margin-top: 60px;
+   display: flex;
+   justify-content: center;
+   gap: 30px;
+   align-items: center;
+}
+
+.socials a img{
+   width: 60px;
+
+}
+
+.ptext{
+   text-align: center;
+   align-items: center;
+   padding-top: 290px;
+   color: azure;
+}
